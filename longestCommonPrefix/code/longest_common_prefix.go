@@ -30,4 +30,3 @@ func longestCommonPrefix(strs []string) string {
 func LongestCommonPrefix(strs []string) string {
 	return longestCommonPrefix(strs)
 }
-
