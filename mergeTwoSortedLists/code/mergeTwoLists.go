@@ -12,6 +12,12 @@ type ListNode struct {
  *     Next *ListNode
  * }
  */
+// TODO: 递归完成
+func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode {
+	return &ListNode{}
+}
+
+//遍历
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	var preNode = new(ListNode)
 	saveNode := preNode
