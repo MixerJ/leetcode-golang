@@ -4,4 +4,5 @@
 [13.罗马数字转整数](longestCommonPrefix)  
 [14.最长公共前缀](romanToInt)     
 [20.有效的括号](validParentheses)        
-[21.合并两个有序链表](mergeTwoSortedLists)
+[21.合并两个有序链表](mergeTwoSortedLists)      
+[26. 删除排序数组中的重复项](removeDuplicatesFromSortedArray)
