@@ -6,4 +6,5 @@
 [20.有效的括号](validParentheses)        
 [21.合并两个有序链表](mergeTwoSortedLists)      
 [26. 删除排序数组中的重复项](removeDuplicatesFromSortedArray)      
-[27.移除元素](removeElement)
+[27.移除元素](removeElement)    
+[28.移除元素](implementsStrStr)
