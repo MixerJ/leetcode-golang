@@ -1,4 +1,5 @@
-[1.两数之和](twoSum)        
+[1.两数之和](twoSum)  
+[2.两数相加](addTwoNumbers)      
 [7.整数反转](intReverse)    
 [9.回文数](intReverse)        
 [13.罗马数字转整数](longestCommonPrefix)  
