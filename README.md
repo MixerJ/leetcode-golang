@@ -9,4 +9,5 @@
 [26. 删除排序数组中的重复项](removeDuplicatesFromSortedArray)      
 [27.移除元素](removeElement)    
 [28.实现 strStr()](implementsStrStr)  
-[35.搜索插入位置](searchInsertPosition)
+[35.搜索插入位置](searchInsertPosition)   
+[38.报数](countAndSay)
