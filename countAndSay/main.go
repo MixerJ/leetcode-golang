@@ -5,7 +5,7 @@ import (
 	"leetcode/countAndSay/code"
 )
 
-func main(){
+func main() {
 	fmt.Println(code.CountAndSay(1) == "1")
 	fmt.Println(code.CountAndSay(2) == "11")
 	fmt.Println(code.CountAndSay(3) == "21")

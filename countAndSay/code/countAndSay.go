@@ -9,7 +9,7 @@ func countAndSay(n int) string {
 
 	s := countAndSay(n-1) + "*"
 	var res, count = "", 1
-	for i := 0; i < len(s) - 1; i++ {
+	for i := 0; i < len(s)-1; i++ {
 		if s[i] == s[i+1] {
 			count += 1
 		} else {

@@ -11,8 +11,8 @@ func strStr(haystack string, needle string) int {
 
 	for i := 0; i < len(haystack); i++ {
 		start = i
-		for key := range needle{
-			if i + key >= len(haystack) {
+		for key := range needle {
+			if i+key >= len(haystack) {
 				start = -1
 				break
 			}
@@ -20,7 +20,7 @@ func strStr(haystack string, needle string) int {
 				start = -1
 				break
 			}
-			if len(needle) - 1 == key {
+			if len(needle)-1 == key {
 				return start
 			}
 		}

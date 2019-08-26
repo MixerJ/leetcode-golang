@@ -49,8 +49,8 @@ func main() {
 		},
 		&code.ListNode{
 			Val: 9,
-			Next:&code.ListNode{
-				Val:9,
+			Next: &code.ListNode{
+				Val: 9,
 			},
 		},
 	))

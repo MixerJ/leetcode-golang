@@ -5,11 +5,11 @@ func isValid(s string) bool {
 	if sLength == 0 {
 		return true
 	}
-	if sLength % 2 != 0 {
+	if sLength%2 != 0 {
 		return false
 	}
 	var stack []string
-	for i:=0; i < sLength; i++ {
+	for i := 0; i < sLength; i++ {
 		iString := string(s[i])
 		stackLength := len(stack)
 		if stackLength == 0 {
@@ -24,7 +24,7 @@ func isValid(s string) bool {
 				if stackLength == 1 {
 					stack = []string{}
 				} else {
-					stack = stack[0:stackLength-1]
+					stack = stack[0 : stackLength-1]
 				}
 			}
 		} else if iString == "}" {
@@ -34,7 +34,7 @@ func isValid(s string) bool {
 				if len(stack) == 1 {
 					stack = []string{}
 				} else {
-					stack = stack[0:stackLength-1]
+					stack = stack[0 : stackLength-1]
 				}
 			}
 		} else if iString == ")" {
@@ -44,7 +44,7 @@ func isValid(s string) bool {
 				if stackLength == 1 {
 					stack = []string{}
 				} else {
-					stack = stack[0:stackLength-1]
+					stack = stack[0 : stackLength-1]
 				}
 			}
 		} else {

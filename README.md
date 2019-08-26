@@ -11,4 +11,5 @@
 [28.实现 strStr()](implementsStrStr)  
 [35.搜索插入位置](searchInsertPosition)   
 [38.报数](countAndSay)        
-[53.最大子序和](maximumSubarray)
+[53.最大子序和](maximumSubarray)     
+[58.最后一个单词的长度](lengthOfLastWord)
