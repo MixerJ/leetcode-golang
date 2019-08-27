@@ -9,7 +9,7 @@ func plusOne(digits []int) []int {
 		return digits
 	} else {
 		for i := digitsLength - 1; i >= 0; i-- {
-			if digits[i] + plus > 9 {
+			if digits[i]+plus > 9 {
 				digitsNum := digits[i]
 				digits[i] = (digitsNum + plus) % 10
 				plus = (digitsNum + plus) / 10
