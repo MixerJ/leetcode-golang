@@ -13,11 +13,11 @@ func addBinary(a string, b string) string {
 	var returnString string
 	if aLength > bLength {
 		b = formatString(b, aLength-bLength)
-		bLength += aLength-bLength
+		bLength += aLength - bLength
 	}
 	if aLength < bLength {
 		a = formatString(a, bLength-aLength)
-		aLength += bLength-aLength
+		aLength += bLength - aLength
 	}
 	var plus int
 	for i := aLength - 1; i >= 0; i-- {
@@ -57,13 +57,13 @@ func addBinary(a string, b string) string {
 	return returnString
 }
 
-func addBinaryTwo(a,b string) string {
+func addBinaryTwo(a, b string) string {
 	if a == "" || b == "" {
 		return a + b
 	}
 	if string(a[len(a)-1]) == "0" && string(b[len(b)-1]) == "0" {
 		return addBinaryTwo(a[:len(a)-1], b[:len(b)-1]) + "0"
-	} else if string(a[len(a)-1]) == "1" && string(b[len(b)-1]) == "1"{
+	} else if string(a[len(a)-1]) == "1" && string(b[len(b)-1]) == "1" {
 		return addBinaryTwo(a[:len(a)-1], addBinaryTwo(b[:len(b)-1], "1")) + "0"
 	} else {
 		return addBinaryTwo(a[:len(a)-1], b[:len(b)-1]) + "1"
@@ -71,5 +71,5 @@ func addBinaryTwo(a,b string) string {
 }
 func AddBinary(a string, b string) string {
 	//return addBinary(a, b)
-	return addBinaryTwo(a,b)
+	return addBinaryTwo(a, b)
 }
