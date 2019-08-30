@@ -5,7 +5,7 @@ import (
 	"leetcode/climbingStairs/code"
 )
 
-func main(){
+func main() {
 	fmt.Println(code.ClimbStairs(0) == 1)
 	fmt.Println(code.ClimbStairs(1) == 1)
 	fmt.Println(code.ClimbStairs(2) == 2)

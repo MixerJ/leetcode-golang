@@ -16,33 +16,33 @@ func readNode(listNode *code.ListNode) {
 
 func main() {
 	readNode(code.DeleteDuplicates(&code.ListNode{
-		Val:1,
-		Next:&code.ListNode{
-			Val:1,
-			Next:&code.ListNode{
-				Val:2,
+		Val: 1,
+		Next: &code.ListNode{
+			Val: 1,
+			Next: &code.ListNode{
+				Val: 2,
 			},
 		},
 	}))
 	readNode(code.DeleteDuplicates(&code.ListNode{
-		Val:1,
-		Next:&code.ListNode{
-			Val:1,
-			Next:&code.ListNode{
-				Val:1,
+		Val: 1,
+		Next: &code.ListNode{
+			Val: 1,
+			Next: &code.ListNode{
+				Val: 1,
 			},
 		},
 	}))
 	readNode(code.DeleteDuplicates(&code.ListNode{
-		Val:1,
-		Next:&code.ListNode{
-			Val:1,
-			Next:&code.ListNode{
-				Val:2,
-				Next:&code.ListNode{
-					Val:3,
-					Next:&code.ListNode{
-						Val:3,
+		Val: 1,
+		Next: &code.ListNode{
+			Val: 1,
+			Next: &code.ListNode{
+				Val: 2,
+				Next: &code.ListNode{
+					Val: 3,
+					Next: &code.ListNode{
+						Val: 3,
 					},
 				},
 			},
