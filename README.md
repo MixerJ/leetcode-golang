@@ -1,6 +1,7 @@
 [1.两数之和](twoSum)  
 [2.两数相加](addTwoNumbers)  
-[3.无重复字符的最长子串](longestSubstringWithoutRepeatingCharacters)     
+[3.无重复字符的最长子串](longestSubstringWithoutRepeatingCharacters)  
+[5.最长回文子串](longestPalindromicSubstring)     
 [7.整数反转](intReverse)    
 [9.回文数](intReverse)        
 [13.罗马数字转整数](longestCommonPrefix)  
