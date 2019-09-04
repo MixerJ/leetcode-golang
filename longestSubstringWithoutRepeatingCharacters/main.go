@@ -13,5 +13,7 @@ func main() {
 	//fmt.Println(code.LengthOfLongestSubstring("b") == 1)
 	//fmt.Println(code.LengthOfLongestSubstring("aab") == 2)
 	//fmt.Println(code.LengthOfLongestSubstring("") == 0)
-	fmt.Println(code.LengthOfLongestSubstring("cdd") == 2)
+	//fmt.Println(code.LengthOfLongestSubstring("bwf") == 3)
+	//fmt.Println(code.LengthOfLongestSubstring("cdd") == 2)
+	fmt.Println(code.LengthOfLongestSubstring("abba") == 2)
 }

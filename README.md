@@ -22,4 +22,6 @@
 [88.合并两个有序数组](mergeSortedArray)     
 [100.相同的树](sameTree)    
 [101.对称二叉树](symmetricTree)  
-[104.二叉树的最大深度](maximumDepthOfBinaryTree)
+[104.二叉树的最大深度](maximumDepthOfBinaryTree)       
+[107.二叉树的层次遍历 II](binaryTreeLevelOrderTraversalII)  
+[678.二叉树的层平均值](averageOfLevelsInBinaryTree)
